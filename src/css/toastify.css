@@ -1,0 +1,8 @@
+@charset "utf-8";
+.toastify { /* dialog よりも手前に表示したい */
+    z-index: 9;
+    white-space: break-spaces;
+}
+#toot-dialog {
+    z-index: 1;
+}
